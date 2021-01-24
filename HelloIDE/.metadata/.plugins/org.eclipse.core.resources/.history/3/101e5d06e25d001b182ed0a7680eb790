@@ -1,0 +1,10 @@
+package com.revature.Strings;
+
+public class Test {
+	
+	    public void doThing() {}  
+	    public static void main(String[] args) {      
+	        doThing();  
+	    }
+	}
+

@@ -1,0 +1,27 @@
+package com.revature.dayThree;
+import com.revature.dayThree.Shoppers_Model;
+public class Shoppers_App {
+	
+
+	
+
+		public static void main(String[] args) {
+			
+			// declaring a reference variable of the type Shopper
+			Shopper_App bob;
+			bob = new Shopper_App();
+			
+			
+			bob.name = "Bob";
+			bob.setPurchaseTotal(50.67);
+			
+			bob.calculateTax();
+			
+			bob.printDetails();
+			
+			Shopper_App bill = new Shopper_App();
+
+		}
+
+	}
+
